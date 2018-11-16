@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Posts from '@/components/Posts'
 import NewPost from '@/components/NewPost'
 import EditPost from '@/components/EditPost'
-import Hello from '@/views/Hello'
+import Test from '@/views/Test'
 
 Vue.use(Router)
 
@@ -13,7 +13,7 @@ export default new Router({
     {
       path: '/',
       name: 'Hello',
-      component: Hello
+      component: Test
     },
     {
       path: '/posts',
